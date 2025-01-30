@@ -11,8 +11,8 @@ Application descriptor repository for app-inn-reach.
 
 ## UI Modules
 
-| Module name         |
-|:--------------------|
-| `ui-inn-reach`      |
+| Module name           |
+|:----------------------|
+| `folio_inn-reach`     |
 
 N/A

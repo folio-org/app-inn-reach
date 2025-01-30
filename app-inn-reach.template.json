@@ -21,7 +21,7 @@
   ],
   "uiModules": [
     {
-      "name": "ui-inn-reach",
+      "name": "folio_inn-reach",
       "version": "latest"
     }
   ]
