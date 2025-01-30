@@ -1,0 +1,28 @@
+{
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-platform-complete",
+      "version": "^1.0.0-SNAPSHOT"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-inn-reach",
+      "version": "latest"
+    },
+    {
+      "name": "edge-inn-reach",
+      "version": "latest"
+    }
+  ],
+  "uiModules": [
+    {
+      "name": "ui-inn-reach",
+      "version": "latest"
+    }
+  ]
+}
