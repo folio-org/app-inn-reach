@@ -93,6 +93,6 @@
     <url>https://https://github.com/folio-org/app-inn-reach</url>
     <connection>scm:git:git://github.com:folio-org/app-inn-reach.git</connection>
     <developerConnection>scm:git:git@github.com:folio-org/app-inn-reach.git</developerConnection>
-    <tag>release/v1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 </project>
