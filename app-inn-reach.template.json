@@ -3,26 +3,22 @@
   "version": "${project.version}",
   "description": "${project.description}",
   "platform": "complete",
-  "dependencies": [
-    {
-      "name": "app-platform-complete",
-      "version": "^2.1.0-SNAPSHOT"
-    }
-  ],
-  "modules": [
-    {
+  "dependencies": [  {
+    "name": "app-platform-complete",
+    "version": "^2.1.0-SNAPSHOT"
+  }],
+  "modules":   [
+        {
       "name": "mod-inn-reach",
-      "version": "latest"
+      "version": "3.4.3"
     },
-    {
+        {
       "name": "edge-inn-reach",
-      "version": "latest"
+      "version": "3.4.2"
     }
   ],
-  "uiModules": [
-    {
-      "name": "folio_inn-reach",
-      "version": "latest"
-    }
-  ]
+  "uiModules": [  {
+    "name": "folio_inn-reach",
+    "version": "6.0.2"
+  }]
 }
