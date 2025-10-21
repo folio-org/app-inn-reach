@@ -1,6 +1,6 @@
 {
   "name": "app-inn-reach",
-  "version": "1.1.0-SNAPSHOT.100100000000968",
+  "version": "1.1.0-SNAPSHOT.100100000001967",
   "description": "Application for mod-inn-reach project in the folio",
   "platform": "complete",
   "dependencies": [
@@ -22,7 +22,7 @@
   "uiModules": [
     {
       "name": "folio_inn-reach",
-      "version": "6.1.1099000000000139"
+      "version": "6.1.1099000000000150"
     }
   ]
 }
