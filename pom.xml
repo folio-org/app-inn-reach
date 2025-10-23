@@ -6,7 +6,7 @@
   <artifactId>app-inn-reach</artifactId>
   <groupId>org.folio</groupId>
   <description>Application for mod-inn-reach project in the folio</description>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <properties>
     <project.name>app-inn-reach</project.name>
