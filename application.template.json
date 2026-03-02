@@ -6,26 +6,26 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^2.1.0",
+      "version": "^VERSION",
       "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-inn-reach",
-      "version": "latest",
+      "version": "^VERSION",
       "preRelease": "false"
     },
     {
       "name": "edge-inn-reach",
-      "version": "latest",
+      "version": "^VERSION",
       "preRelease": "false"
     }
   ],
   "uiModules": [
     {
       "name": "folio_inn-reach",
-      "version": "latest",
+      "version": "^VERSION",
       "preRelease": "false"
     }
   ]
