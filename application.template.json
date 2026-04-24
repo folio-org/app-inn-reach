@@ -6,36 +6,36 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^VERSION_^3.0.0-SNAPSHOT",
+      "version": "~3.3.0",
       "preRelease": "false"
     },
     {
       "name": "app-marc-storage",
-      "version": "^VERSION_^1.0.0-SNAPSHOT",
+      "version": "~1.0.0",
       "preRelease": "false"
     },
     {
       "name": "app-inventory",
-      "version": "^VERSION_^1.0.0-SNAPSHOT",
+      "version": "~1.0.0",
       "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-inn-reach",
-      "version": "^VERSION_latest",
+      "version": "~4.0.0",
       "preRelease": "false"
     },
     {
       "name": "edge-inn-reach",
-      "version": "^VERSION_latest",
+      "version": "~4.0.0",
       "preRelease": "false"
     }
   ],
   "uiModules": [
     {
       "name": "folio_inn-reach",
-      "version": "^VERSION_latest",
+      "version": "~6.1.0",
       "preRelease": "false"
     }
   ]
