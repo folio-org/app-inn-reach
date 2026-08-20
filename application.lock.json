@@ -1,12 +1,12 @@
 {
-  "id" : "app-inn-reach-2.0.9",
+  "id" : "app-inn-reach-2.0.10",
   "name" : "app-inn-reach",
-  "version" : "2.0.9",
+  "version" : "2.0.10",
   "description" : "Application for mod-inn-reach project in the folio",
   "modules" : [ {
-    "id" : "edge-inn-reach-4.0.3",
+    "id" : "edge-inn-reach-4.0.4",
     "name" : "edge-inn-reach",
-    "version" : "4.0.3"
+    "version" : "4.0.4"
   }, {
     "id" : "mod-inn-reach-4.0.5",
     "name" : "mod-inn-reach",
@@ -999,9 +999,12 @@
       }
     }
   }, {
-    "id" : "edge-inn-reach-4.0.3",
+    "id" : "edge-inn-reach-4.0.4",
     "name" : "INN-REACH system Edge API module",
     "requires" : [ {
+      "id" : "inn-reach",
+      "version" : "1.3"
+    }, {
       "id" : "login",
       "version" : "7.3"
     }, {
@@ -1014,7 +1017,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/edge-inn-reach:4.0.3",
+      "dockerImage" : "folioorg/edge-inn-reach:4.0.4",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
