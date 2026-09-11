@@ -1,16 +1,16 @@
 {
-  "id" : "app-inn-reach-2.1.0-SNAPSHOT.100200000011416",
+  "id" : "app-inn-reach-2.1.0-SNAPSHOT.100200000011707",
   "name" : "app-inn-reach",
-  "version" : "2.1.0-SNAPSHOT.100200000011416",
+  "version" : "2.1.0-SNAPSHOT.100200000011707",
   "description" : "Application for mod-inn-reach project in the folio",
   "modules" : [ {
-    "id" : "mod-inn-reach-4.1.0-SNAPSHOT.2264",
+    "id" : "mod-inn-reach-4.1.0-SNAPSHOT.2278",
     "name" : "mod-inn-reach",
-    "version" : "4.1.0-SNAPSHOT.2264"
+    "version" : "4.1.0-SNAPSHOT.2278"
   }, {
-    "id" : "edge-inn-reach-4.1.0-SNAPSHOT.2140",
+    "id" : "edge-inn-reach-4.1.0-SNAPSHOT.2152",
     "name" : "edge-inn-reach",
-    "version" : "4.1.0-SNAPSHOT.2140"
+    "version" : "4.1.0-SNAPSHOT.2152"
   } ],
   "uiModules" : [ {
     "id" : "folio_inn-reach-6.1.1099000000000254",
@@ -31,7 +31,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-inn-reach-4.1.0-SNAPSHOT.2264",
+    "id" : "mod-inn-reach-4.1.0-SNAPSHOT.2278",
     "name" : "INN Reach API module",
     "requires" : [ {
       "id" : "login",
@@ -974,7 +974,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-inn-reach:4.1.0-SNAPSHOT.2264",
+      "dockerImage" : "folioci/mod-inn-reach:4.1.0-SNAPSHOT.2278",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
@@ -1043,7 +1043,7 @@
       }
     }
   }, {
-    "id" : "edge-inn-reach-4.1.0-SNAPSHOT.2140",
+    "id" : "edge-inn-reach-4.1.0-SNAPSHOT.2152",
     "name" : "INN-REACH system Edge API module",
     "requires" : [ {
       "id" : "inn-reach",
@@ -1061,7 +1061,7 @@
     "provides" : [ ],
     "permissionSets" : [ ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/edge-inn-reach:4.1.0-SNAPSHOT.2140",
+      "dockerImage" : "folioci/edge-inn-reach:4.1.0-SNAPSHOT.2152",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
