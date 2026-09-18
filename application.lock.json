@@ -1,7 +1,7 @@
 {
-  "id" : "app-inn-reach-2.1.0-SNAPSHOT.100200000011747",
+  "id" : "app-inn-reach-2.1.0-SNAPSHOT.100200000011753",
   "name" : "app-inn-reach",
-  "version" : "2.1.0-SNAPSHOT.100200000011747",
+  "version" : "2.1.0-SNAPSHOT.100200000011753",
   "description" : "Application for mod-inn-reach project in the folio",
   "modules" : [ {
     "id" : "mod-inn-reach-4.1.0-SNAPSHOT.2283",
@@ -13,9 +13,9 @@
     "version" : "4.1.0-SNAPSHOT.2152"
   } ],
   "uiModules" : [ {
-    "id" : "folio_inn-reach-6.2.1099000000000266",
+    "id" : "folio_inn-reach-6.2.1099000000000269",
     "name" : "folio_inn-reach",
-    "version" : "6.2.1099000000000266"
+    "version" : "6.2.1099000000000269"
   } ],
   "dependencies" : [ {
     "name" : "app-platform-complete",
@@ -1080,7 +1080,7 @@
     }
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_inn-reach-6.2.1099000000000266",
+    "id" : "folio_inn-reach-6.2.1099000000000269",
     "name" : "Description for inn-reach",
     "requires" : [ {
       "id" : "inn-reach",
