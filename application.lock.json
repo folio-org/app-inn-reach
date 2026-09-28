@@ -1,21 +1,21 @@
 {
-  "id" : "app-inn-reach-2.1.0-SNAPSHOT.100200000011797",
+  "id" : "app-inn-reach-2.1.0-SNAPSHOT.100200000011814",
   "name" : "app-inn-reach",
-  "version" : "2.1.0-SNAPSHOT.100200000011797",
+  "version" : "2.1.0-SNAPSHOT.100200000011814",
   "description" : "Application for mod-inn-reach project in the folio",
   "modules" : [ {
-    "id" : "mod-inn-reach-4.1.0-SNAPSHOT.2300",
+    "id" : "mod-inn-reach-4.1.0-SNAPSHOT.2303",
     "name" : "mod-inn-reach",
-    "version" : "4.1.0-SNAPSHOT.2300"
+    "version" : "4.1.0-SNAPSHOT.2303"
   }, {
     "id" : "edge-inn-reach-4.1.0-SNAPSHOT.2152",
     "name" : "edge-inn-reach",
     "version" : "4.1.0-SNAPSHOT.2152"
   } ],
   "uiModules" : [ {
-    "id" : "folio_inn-reach-6.2.1099000000000269",
+    "id" : "folio_inn-reach-6.2.1099000000000274",
     "name" : "folio_inn-reach",
-    "version" : "6.2.1099000000000269"
+    "version" : "6.2.1099000000000274"
   } ],
   "dependencies" : [ {
     "name" : "app-platform-complete",
@@ -31,7 +31,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-inn-reach-4.1.0-SNAPSHOT.2300",
+    "id" : "mod-inn-reach-4.1.0-SNAPSHOT.2303",
     "name" : "INN Reach API module",
     "requires" : [ {
       "id" : "login",
@@ -974,7 +974,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-inn-reach:4.1.0-SNAPSHOT.2300",
+      "dockerImage" : "folioci/mod-inn-reach:4.1.0-SNAPSHOT.2303",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
@@ -1080,7 +1080,7 @@
     }
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_inn-reach-6.2.1099000000000269",
+    "id" : "folio_inn-reach-6.2.1099000000000274",
     "name" : "Description for inn-reach",
     "requires" : [ {
       "id" : "inn-reach",
